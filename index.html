@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="work">
+      <div class="work-content">
+        <p class="text-center">Our Work</p>
+        <h3 class="text-center">A sample of our work...</h3>
+      </div>
+      <!-- Swiper -->
+      <div class="container swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <video
+              src="./assets/5kFgeIElaQbXeYee8w4bekfeplo.mp4"
+              loop=""
+              poster="https://framerusercontent.com/images/9YXvL5BjQ57cLJ3DAYeC38wQmA8.png"
+              controls=""
+              playsinline=""
+              style="
+                cursor: auto;
+                width: 100%;
+                height: 100%;
+                border-radius: 0px;
+                display: block;
+                object-fit: cover;
+                background-color: rgba(0, 0, 0, 0);
+                object-position: 50% 50%;
+              "
+              --
+            ></video>
+          </div>
+          <div class="swiper-slide">
+            <video
+              src="https://framerusercontent.com/assets/j5HEcEAH93nlPZBr2tr7T5KH0e4.mp4"
+              loop=""
+              poster="https://framerusercontent.com/images/MJogGZqehWlW9mgxxVW33oyLyXs.png"
+              controls=""
+              playsinline=""
+              style="
+                cursor: auto;
+                width: 100%;
+                height: 100%;
+                border-radius: 0px;
+                display: block;
+                object-fit: cover;
+                background-color: rgba(0, 0, 0, 0);
+                object-position: 50% 50%;
+              "
+            ></video>
+          </div>
+          <div class="swiper-slide">
+            <video
+              src="https://framerusercontent.com/assets/byJnw1gzUjMcQHCXvkrxumr8Y.mp4"
+              loop=""
+              poster="https://framerusercontent.com/images/72Du2dw6WJGA0nxvrYuwImsIg.png"
+              controls=""
+              playsinline=""
+              style="
+                cursor: auto;
+                width: 100%;
+                height: 100%;
+                border-radius: 0px;
+                display: block;
+                object-fit: cover;
+                background-color: rgba(0, 0, 0, 0);
+                object-position: 50% 50%;
+              "
+            ></video>
+          </div>
+          <div class="swiper-slide">
+            <video
+              src="https://framerusercontent.com/assets/5kFgeIElaQbXeYee8w4bekfeplo.mp4"
+              loop=""
+              poster="https://framerusercontent.com/images/9YXvL5BjQ57cLJ3DAYeC38wQmA8.png"
+              controls=""
+              playsinline=""
+              style="
+                cursor: auto;
+                width: 100%;
+                height: 100%;
+                border-radius: 0px;
+                display: block;
+                object-fit: cover;
+                background-color: rgba(0, 0, 0, 0);
+                object-position: 50% 50%;
+              "
+            ></video>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
